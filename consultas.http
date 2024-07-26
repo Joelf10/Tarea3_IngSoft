@@ -1,0 +1,8 @@
+POST http://127.0.0.1:5000/registrar_consulta
+Content-Type: application/json
+
+{
+    "paciente": "Juan Perez",
+    "doctor": "Dr. García",
+    "pago": "Efectivo"
+}
