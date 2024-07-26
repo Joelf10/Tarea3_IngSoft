@@ -82,3 +82,4 @@ export const usePacienteStore = defineStore('paciente', {
     }
   }
 })
+jijijiji
