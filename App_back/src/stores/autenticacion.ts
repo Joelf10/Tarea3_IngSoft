@@ -100,3 +100,4 @@ export const useAutenticacionStore = defineStore('autenticacion', {
     }
   }
 })
+hola
