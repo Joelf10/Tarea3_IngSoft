@@ -5,7 +5,10 @@ Realizado en vscode
 //Ejecutas primero el servidor
 python python .\app.py
 //Si quieres hacer pruebas usa el tester (opcional)
-python .\test_app.py
+python .\test.py
+//Para ejecutar el codigo pytest
+pytest test.py
+
 
 
 
