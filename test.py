@@ -1,5 +1,3 @@
-python -m doctest -v test_api2.py
-
 from api import ConsultaMedica, RegistroConsultas
 from mockito import when, verify
 
