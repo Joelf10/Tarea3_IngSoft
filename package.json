@@ -1,9 +1,9 @@
 {
-    "name": "front-medico-oficial",
+    "name": "App_back",
     "version": "0.0.1",
-    "description": " front end medico proyecto",
+    "description": " front end ",
     "productName": "Quasar App",
-    "author": "cronquillof <88749701+cronquillof@users.noreply.github.com>",
+    "author": "jcontrerasf <88749701+jcontrerasf@users.noreply.github.com>",
     "private": true,
     "scripts": {
         "lint": "eslint --ext .js,.vue ./",
