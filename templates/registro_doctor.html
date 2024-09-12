@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Doctor</title>
+</head>
+<body>
+    <h1>Registro de Doctor</h1>
+
+    <form method="post" action="{{ url_for('registro_doctor') }}">
+        <label for="nombre">User:</label>
+        <label for="nombre">Nombre del Doctor:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

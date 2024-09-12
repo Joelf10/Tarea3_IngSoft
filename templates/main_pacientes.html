@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Pacientes</title>
+</head>
+<body>
+    <h1>Main Pacientes</h1>
+    <p>Bienvenido, {{ usuario }}.</p>
+    
+    <form action="{{ url_for('citas', usuario=usuario) }}" method="get">
+        <input type="submit" value="Ir a Programar Cita">
+    </form>
+
+    
+</body>
+</html>

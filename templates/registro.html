@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form method="post" action="{{ url_for('registro') }}">
+        <label for="nombre">Nombre de usuario:</label>
+        <input type="text" name="nombre" required>
+        <br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" required>
+        <br>
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="text" name="fecha_nacimiento" placeholder="DD/MM/AAAA" required>
+        <br>
+        <label for="cedula">Cedula:</label>
+        <input type="text" name="cedula" required>
+        <br>
+        <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>
